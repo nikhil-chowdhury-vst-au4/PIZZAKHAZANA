@@ -1,0 +1,159 @@
+
+
+a.nav-link {
+    display: inline-block;
+    color: rgb(255, 255, 255, 0.75);
+}
+
+a.nav-link:hover {
+    color: white;
+}
+
+a.nav-link.active {
+    color: white;
+}
+
+.space-top {
+    margin-top: 2em;
+}
+
+.navbar span {
+    color: #bbbbbb;
+}
+
+.card-blockquote>img {
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 1em;
+}
+
+.selected {
+	background: #666666;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+  
+body {
+    margin-bottom: 220px;
+}
+  
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.card-image {
+    width: 300px;
+    height: 200px;
+}
+
+
+.App{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+
+  /* .carousel-item  img {
+    width: 100%;
+    height: 600px;
+  } */
+
+  
+
+  .bg-cover {
+    background-attachment: static;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.cardparent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.near-moon-gradient {
+  background-image: linear-gradient(to bottom, #5ee7df 0%, #e64884 100%)
+}
+
+.form-white .md-form label {
+  color: #fff; 
+}
+.form-white input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #fff;
+    -webkit-box-shadow: 0 1px 0 0 #fff;
+    box-shadow: 0 1px 0 0 #fff; 
+}
+.form-white input[type=text]:focus:not([readonly]) + label {
+    color: #fff; 
+}
+.form-white input[type=password]:focus:not([readonly]) {
+    border-bottom: 1px solid #fff;
+    -webkit-box-shadow: 0 1px 0 0 #fff;
+    box-shadow: 0 1px 0 0 #fff; 
+}
+.form-white input[type=password]:focus:not([readonly]) + label {
+    color: #fff; 
+}
+.form-white input[type=password], .form-white input[type=text] {
+    border-bottom: 1px solid #fff; 
+}
+.form-white .form-control:focus {
+    color: #fff;
+}
+.form-white .form-control {
+    color: #fff;
+}
+.form-white textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff;
+    color: #fff; 
+}
+.form-white textarea.md-textarea  {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.form-white textarea.md-textarea:focus:not([readonly])+label {
+    color: #fff;
+}
+
+.card-deck{
+  margin: 0,0,0,0;
+}
+
+
